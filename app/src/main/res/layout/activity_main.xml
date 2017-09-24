@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.vccs.hduong7592.myapplication.MainActivity">
+
+    <EditText
+        android:id="@+id/Val9"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="Value9"
+        android:inputType="number"
+        app:layout_constraintLeft_toRightOf="@+id/Val8"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Val6" />
+
+    <EditText
+        android:id="@+id/Val6"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Value6"
+        android:inputType="number"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintLeft_toRightOf="@+id/Val8"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Val3" />
+
+    <EditText
+        android:id="@+id/Val5"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Value5"
+        android:inputType="number"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toRightOf="@+id/Val7"
+        app:layout_constraintRight_toLeftOf="@+id/Val9"
+        app:layout_constraintTop_toBottomOf="@+id/Val2" />
+
+    <EditText
+        android:id="@+id/Val4"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Value4"
+        android:inputType="number"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/Val8"
+        app:layout_constraintTop_toBottomOf="@+id/Val1" />
+
+    <EditText
+        android:id="@+id/Val3"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Value3"
+        android:inputType="number"
+        app:layout_constraintLeft_toRightOf="@+id/Val8"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/Val2"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Value2"
+        android:inputType="number"
+        app:layout_constraintLeft_toRightOf="@+id/Val7"
+        app:layout_constraintRight_toLeftOf="@+id/Val9"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/Val1"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Value1"
+        android:inputType="number"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/Val8"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/Val8"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="Value8"
+        android:inputType="number"
+        app:layout_constraintLeft_toRightOf="@+id/Val7"
+        app:layout_constraintRight_toLeftOf="@+id/Val9"
+        app:layout_constraintTop_toBottomOf="@+id/Val5" />
+
+    <EditText
+        android:id="@+id/Val7"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="Value7"
+        android:inputType="number"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/Val8"
+        app:layout_constraintTop_toBottomOf="@+id/Val4" />
+
+    <Button
+        android:id="@+id/Array1Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:text="Array1"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Val8" />
+
+    <Button
+        android:id="@+id/CompareBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:text="Compare"
+        app:layout_constraintHorizontal_bias="0.898"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Val8" />
+
+    <Button
+        android:id="@+id/Array2Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:text="Arary2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Val8" />
+
+    <TextView
+        android:id="@+id/Array1LB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Array1"
+        android:layout_marginTop="144dp"
+        app:layout_constraintTop_toBottomOf="@+id/Val7"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.084" />
+
+    <TextView
+        android:id="@+id/Array2LB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Array2"
+        android:layout_marginTop="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/Array1LB"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.084" />
+
+    <TextView
+        android:id="@+id/ResultLB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:layout_marginTop="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/Array2LB"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.084" />
+
+</android.support.constraint.ConstraintLayout>
